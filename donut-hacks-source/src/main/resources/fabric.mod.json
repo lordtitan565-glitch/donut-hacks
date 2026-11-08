@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "donut_hacks",
+  "version": "${version}",
+  "name": "Donut Hacks",
+  "description": "Utility client with a Right Shift menu.",
+  "authors": ["You"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.krypton.KryptonClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
